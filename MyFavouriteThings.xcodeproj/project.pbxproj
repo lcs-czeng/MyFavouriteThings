@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		160912A72CF0C43E00C3A3F8 /* MyFavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160912A62CF0C43E00C3A3F8 /* MyFavouriteThingsApp.swift */; };
-		160912A92CF0C43E00C3A3F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160912A82CF0C43E00C3A3F8 /* ContentView.swift */; };
 		160912AB2CF0C44100C3A3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160912AA2CF0C44100C3A3F8 /* Assets.xcassets */; };
 		160912AE2CF0C44100C3A3F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160912AD2CF0C44100C3A3F8 /* Preview Assets.xcassets */; };
+		160912B52CF0C46100C3A3F8 /* MyFavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160912B42CF0C46100C3A3F8 /* MyFavouriteThingsListView.swift */; };
+		160912B72CF0C47400C3A3F8 /* ThingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160912B62CF0C47400C3A3F8 /* ThingsView.swift */; };
+		160912BC2CF0C4DE00C3A3F8 /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160912BB2CF0C4DE00C3A3F8 /* Things.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		160912A32CF0C43E00C3A3F8 /* MyFavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		160912A62CF0C43E00C3A3F8 /* MyFavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavouriteThingsApp.swift; sourceTree = "<group>"; };
-		160912A82CF0C43E00C3A3F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		160912AA2CF0C44100C3A3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160912AD2CF0C44100C3A3F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		160912B42CF0C46100C3A3F8 /* MyFavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavouriteThingsListView.swift; sourceTree = "<group>"; };
+		160912B62CF0C47400C3A3F8 /* ThingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsView.swift; sourceTree = "<group>"; };
+		160912BB2CF0C4DE00C3A3F8 /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				160912A62CF0C43E00C3A3F8 /* MyFavouriteThingsApp.swift */,
-				160912A82CF0C43E00C3A3F8 /* ContentView.swift */,
 				160912AA2CF0C44100C3A3F8 /* Assets.xcassets */,
+				160912BA2CF0C4B000C3A3F8 /* Views */,
+				160912B92CF0C49400C3A3F8 /* Models */,
 				160912AC2CF0C44100C3A3F8 /* Preview Content */,
 			);
 			path = MyFavouriteThings;
@@ -65,6 +70,23 @@
 				160912AD2CF0C44100C3A3F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		160912B92CF0C49400C3A3F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				160912BB2CF0C4DE00C3A3F8 /* Things.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		160912BA2CF0C4B000C3A3F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				160912B42CF0C46100C3A3F8 /* MyFavouriteThingsListView.swift */,
+				160912B62CF0C47400C3A3F8 /* ThingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160912A92CF0C43E00C3A3F8 /* ContentView.swift in Sources */,
+				160912BC2CF0C4DE00C3A3F8 /* Things.swift in Sources */,
+				160912B52CF0C46100C3A3F8 /* MyFavouriteThingsListView.swift in Sources */,
 				160912A72CF0C43E00C3A3F8 /* MyFavouriteThingsApp.swift in Sources */,
+				160912B72CF0C47400C3A3F8 /* ThingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
